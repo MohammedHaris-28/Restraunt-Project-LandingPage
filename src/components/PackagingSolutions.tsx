@@ -69,7 +69,7 @@ const PackagingPage = () => {
             >
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6">
                 <Sparkles size={14} />
-                MenuMint Solutions
+                #2CODE Solutions
               </div>
               <h1 className="text-4xl md:text-6xl font-heading font-bold text-foreground mt-3 leading-tight">
                 Your Food Deserves <br className="hidden md:block" /> 
@@ -178,7 +178,7 @@ const PackagingPage = () => {
             <div className="glass-strong rounded-[3rem] p-12 lg:p-20 text-center max-w-5xl mx-auto">
                <h2 className="text-3xl md:text-4xl font-bold mb-8">Ready to transform your <br className="hidden md:block"/> packaging?</h2>
                <p className="text-muted-foreground mb-10 max-w-xl mx-auto">
-                 Join 50+ restaurants who upgraded to MenuMint's premium packaging 
+                 Join 50+ restaurants who upgraded to #2CODE's premium packaging 
                  and saw an immediate boost in customer satisfaction.
                </p>
                <Button className="rounded-full px-12 py-7 text-lg gradient-primary text-primary-foreground font-bold shadow-soft">

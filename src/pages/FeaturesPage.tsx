@@ -60,6 +60,7 @@ const features = [
     title: "Simple & Elegant UI",
     desc: "Clean and intuitive interface designed for restaurant staff — no technical knowledge required.",
   },
+  { icon: Monitor, title: "CRM Tools", desc: "Manage customer relationships and track interactions." },
 ];
 
 const FeaturesPage = () => {

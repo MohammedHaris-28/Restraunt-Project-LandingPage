@@ -27,7 +27,7 @@ const TermsPage = () => {
           </h1>
 
           <p className="text-muted-foreground mt-6 max-w-2xl mx-auto text-lg">
-            Please read these terms carefully before using MenuMint services.
+            Please read these terms carefully before using #2CODE services.
           </p>
         </motion.div>
       </section>
@@ -39,7 +39,7 @@ const TermsPage = () => {
           <div>
             <h2 className="text-xl font-semibold text-foreground mb-2">1. Acceptance of Terms</h2>
             <p>
-              By accessing or using MenuMint, you agree to be bound by these Terms & Conditions.
+              By accessing or using #2CODE, you agree to be bound by these Terms & Conditions.
               If you do not agree, please do not use our services.
             </p>
           </div>
@@ -47,7 +47,7 @@ const TermsPage = () => {
           <div>
             <h2 className="text-xl font-semibold text-foreground mb-2">2. Service Overview</h2>
             <p>
-              MenuMint provides a QR-based ordering and restaurant management system including
+              #2CODE provides a QR-based ordering and restaurant management system including
               menu management, order tracking, analytics, and reporting tools.
             </p>
           </div>
@@ -64,7 +64,7 @@ const TermsPage = () => {
             <h2 className="text-xl font-semibold text-foreground mb-2">4. Data Ownership</h2>
             <p>
               All data related to orders, menus, and operations belongs to the restaurant.
-              MenuMint only processes and stores this data to provide services.
+              #2CODE only processes and stores this data to provide services.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ const TermsPage = () => {
           <div>
             <h2 className="text-xl font-semibold text-foreground mb-2">6. Payments & Subscription</h2>
             <p>
-              MenuMint operates on a subscription model. Setup fees and monthly charges may apply.
+              #2CODE operates on a subscription model. Setup fees and monthly charges may apply.
               Payments once made are non-refundable unless otherwise agreed.
             </p>
           </div>
@@ -96,7 +96,7 @@ const TermsPage = () => {
           <div>
             <h2 className="text-xl font-semibold text-foreground mb-2">8. Limitation of Liability</h2>
             <p>
-              MenuMint shall not be liable for any loss of data, revenue, or business interruption.
+              #2CODE shall not be liable for any loss of data, revenue, or business interruption.
               Restaurants are responsible for exporting and maintaining their own records.
             </p>
           </div>
@@ -125,7 +125,7 @@ const TermsPage = () => {
             <p className="mt-2 text-foreground font-medium">
               Haris M (Manager & Sales Representative) <br />
               Phone: +91 9036486726 <br />
-              Email: menumint@gmail.com
+              Email: hash2codeteam@gmail.com
             </p>
           </div>
 
@@ -140,7 +140,7 @@ const TermsPage = () => {
           viewport={{ once: true }}
         >
           <h3 className="text-2xl font-heading font-bold">
-            Build Smarter Restaurants with MenuMint 🚀
+            Build Smarter Restaurants with #2CODE 🚀
           </h3>
           <p className="text-muted-foreground mt-3">
             Simple. Powerful. Built for growth.

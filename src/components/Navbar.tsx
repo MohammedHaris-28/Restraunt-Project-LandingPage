@@ -64,7 +64,7 @@ const Navbar = () => {
           onClick={() => navigate("/")}
           className="cursor-pointer font-heading text-xl font-bold text-foreground tracking-tight"
         >
-          Menu<span className="text-primary">Mint</span>
+          #2<span className="text-primary">CODE</span>
         </span>
 
         {/* Desktop Links */}

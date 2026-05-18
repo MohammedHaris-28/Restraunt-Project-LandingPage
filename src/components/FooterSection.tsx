@@ -12,7 +12,7 @@ const FooterSection = () => {
           {/* BRAND */}
           <div>
             <span className="font-heading text-xl font-bold text-foreground">
-              Menu<span className="text-gradient">Mint</span>
+              #2<span className="text-gradient">CODE</span>
             </span>
             <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
               Smart Restaurant Management & QR Ordering System. Digitize your restaurant today.
@@ -97,7 +97,7 @@ const FooterSection = () => {
         <div className="border-t border-border/40 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           
           <p className="text-xs text-muted-foreground">
-            © 2026 MenuMint. All rights reserved.
+            © 2026 #2CODE. All rights reserved.
           </p>
 
           {/* SOCIALS */}

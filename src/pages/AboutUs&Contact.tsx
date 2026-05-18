@@ -29,7 +29,7 @@ const AboutPage = () => {
           </h1>
 
           <p className="text-muted-foreground mt-6 max-w-2xl mx-auto text-lg">
-            MenuMint helps restaurants, cafes, and resorts digitize their operations 
+            #2CODE helps restaurants, cafes, and resorts digitize their operations 
             with QR-based ordering, real-time analytics, and powerful management tools — 
             all without needing expensive hardware or complex systems.
           </p>

@@ -8,6 +8,7 @@ const features = [
   { icon: BarChart3, title: "Analytics & Reports", desc: "Deep insights into sales, trends, and customer behavior." },
   { icon: Building2, title: "Multi-Restaurant Support", desc: "Manage multiple branches from a single dashboard." },
   { icon: Utensils, title: "Combo & Menu Management", desc: "Create combos, set prices, and update menus instantly." },
+  { icon: Monitor, title: "CRM Tools", desc: "Manage customer relationships and track interactions." },
 ];
 
 const FeaturesSection = () => (

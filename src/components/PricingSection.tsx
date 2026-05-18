@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "Basic",
-    price: "999",
+    price: "399",
     desc: "Perfect for small restaurants getting started.",
     features: [
       "QR Menu System",
@@ -15,17 +15,19 @@ const plans = [
       "Email Support",
     ],
     cta: "Start Basic",
-    popular: false,
   },
   {
     name: "Pro",
-    price: "1,499",
+    price: "699",
     desc: "For growing restaurants that need more power.",
     features: [
       "Everything in Basic",
       "POS Dashboard",
       "Kitchen Display System",
       "Analytics Dashboard",
+      "Cash Logs",
+      "CRM Tools",
+      "Reports & Insights",
       "Role-based Access",
       "Priority Support",
     ],
@@ -34,18 +36,15 @@ const plans = [
   },
   {
     name: "Pro+",
-    price: "1,999",
+    price: "1,299",
     desc: "For serious restaurants & multi-branch setups.",
     features: [
       "Everything in Pro",
       "Multi-branch Support",
-      "Custom Branding",
-      "Dedicated Manager",
+      "Custom Website",
       "Future Add-ons Ready",
-      "SLA Guarantee",
     ],
     cta: "Go Premium",
-    popular: false,
   },
 ];
 
@@ -137,6 +136,7 @@ const PricingSection = () => (
         <div className="glass rounded-2xl p-6 text-center">
           <IndianRupee className="mx-auto mb-3 text-primary" />
           <h4 className="font-semibold">One-Time Setup</h4>
+          <h4 className="font-semibold">₹7,999/-</h4>
           <p className="text-sm text-muted-foreground mt-2">
             Includes full onboarding & QR setup.
           </p>
@@ -162,7 +162,7 @@ const PricingSection = () => (
       {/*  FINAL CTA */}
       <div className="text-center mt-16">
         <p className="text-muted-foreground mb-4">
-          Join Menumit for better operations and more revenue. Start your free trial today, no credit card required.
+          Join #2CODE-Restraunt Solutions for better operations and more revenue. Start your free trial today, no credit card required.
         </p>
         <Button className="rounded-full px-8 py-5 text-lg gradient-primary text-primary-foreground shadow-soft">
           Start Free Trial

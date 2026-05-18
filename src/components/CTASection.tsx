@@ -17,7 +17,7 @@ const CTASection = () => (
         Start Your Digital Restaurant <span className="text-gradient">Today</span>
       </h2>
       <p className="text-muted-foreground mt-4 max-w-lg mx-auto text-lg">
-        Join MenuMint to boost revenue and reduce costs.
+        Join #2CODE-Restraunt Solutions to boost revenue and reduce costs.
       </p>
       <div className="flex flex-wrap justify-center gap-4 mt-8">
         <Button className="gradient-primary text-primary-foreground rounded-full px-10 py-6 text-base shadow-soft hover:shadow-card-hover transition-shadow">

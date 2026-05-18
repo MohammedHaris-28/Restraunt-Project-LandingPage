@@ -17,7 +17,7 @@ import { Label } from "@/components/ui/label";
 const plans = [
   {
     name: "Basic",
-    price: "999",
+    price: "399",
     desc: "Perfect for small restaurants getting started.",
     features: [
       "QR Menu System",
@@ -30,13 +30,16 @@ const plans = [
   },
   {
     name: "Pro",
-    price: "1,499",
+    price: "699",
     desc: "For growing restaurants that need more power.",
     features: [
       "Everything in Basic",
       "POS Dashboard",
       "Kitchen Display System",
       "Analytics Dashboard",
+      "Cash Logs",
+      "CRM Tools",
+      "Reports & Insights",
       "Role-based Access",
       "Priority Support",
     ],
@@ -45,15 +48,13 @@ const plans = [
   },
   {
     name: "Pro+",
-    price: "1,999",
+    price: "1,299",
     desc: "For serious restaurants & multi-branch setups.",
     features: [
       "Everything in Pro",
       "Multi-branch Support",
-      "Custom Branding",
-      "Dedicated Manager",
+      "Custom Website",
       "Future Add-ons Ready",
-      "SLA Guarantee",
     ],
     cta: "Go Premium",
   },
@@ -163,134 +164,6 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* CALCULATOR */}
-      <section className="py-24">
-        <div className="container mx-auto max-w-5xl px-4">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold">
-              Estimate Your Setup Cost
-            </h2>
-            <p className="text-muted-foreground mt-2">
-              Customize your system and see exact investment
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-
-            {/* LEFT */}
-            <div className="glass rounded-2xl p-6 space-y-6">
-
-              {/* Tables */}
-              <div>
-                <Label>Number of Tables</Label>
-                <Input
-                  type="number"
-                  value={tables}
-                  onChange={(e) => setTables(Number(e.target.value))}
-                  className="mt-2"
-                />
-              </div>
-
-              {/* QR TYPE */}
-              <div>
-                <Label>QR Type</Label>
-                <div className="flex gap-3 mt-2">
-                  <button
-                    onClick={() => setQrType("standard")}
-                    className={`px-4 py-2 rounded-lg ${
-                      qrType === "standard"
-                        ? "bg-primary text-white"
-                        : "bg-muted"
-                    }`}
-                  >
-                    Standard (₹50)
-                  </button>
-                  <button
-                    onClick={() => setQrType("premium")}
-                    className={`px-4 py-2 rounded-lg ${
-                      qrType === "premium"
-                        ? "bg-primary text-white"
-                        : "bg-muted"
-                    }`}
-                  >
-                    Premium Stand (₹150)
-                  </button>
-                </div>
-              </div>
-
-              {/* FEATURES */}
-              <div>
-                <Label>Select Add-ons</Label>
-                <div className="space-y-3 mt-2">
-                  {features.map((f) => (
-                    <div
-                      key={f.name}
-                      className="flex justify-between items-center bg-background/40 p-2 rounded-lg"
-                    >
-                      <div className="flex gap-2 items-center">
-                        <Checkbox
-                          checked={selected.includes(f.name)}
-                          onCheckedChange={() => toggle(f.name)}
-                        />
-                        <span className="text-sm">{f.name}</span>
-                      </div>
-                      <span className="text-xs">₹{f.price}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* RIGHT */}
-            <div className="glass rounded-2xl p-8 flex flex-col justify-between">
-
-              <div>
-                <h3 className="text-xl font-semibold mb-4">
-                  Your Investment
-                </h3>
-
-                <div className="text-sm text-muted-foreground space-y-2">
-                  <p>Base Setup: ₹{BASE}</p>
-                  <p>
-                    Tables ({tables}): ₹{tables * qrCostPerTable}
-                  </p>
-                  <p>
-                    Features: ₹
-                    {features
-                      .filter((f) => selected.includes(f.name))
-                      .reduce((s, f) => s + f.price, 0)}
-                  </p>
-                </div>
-
-                <div className="mt-4 text-green-600 text-xs flex gap-2 items-center">
-                  <Zap size={14} />
-                  Recover cost in 2–3 days 🚀
-                </div>
-              </div>
-
-              <div className="border-t pt-4 mt-6">
-                <div className="flex justify-between items-center">
-                  <span className="font-semibold">
-                    Total Setup Cost
-                  </span>
-                  <span className="text-3xl font-bold text-primary flex items-center">
-                    <IndianRupee size={20} />
-                    {total.toLocaleString("en-IN")}
-                  </span>
-                </div>
-
-                <p className="text-xs text-muted-foreground mt-2">
-                  One-time setup. Subscription starts ₹999/month.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* TRUST SECTION */}
       <section className="py-20 bg-accent/20">
