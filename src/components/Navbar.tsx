@@ -64,7 +64,7 @@ const Navbar = () => {
           onClick={() => navigate("/")}
           className="cursor-pointer font-heading text-xl font-bold text-foreground tracking-tight"
         >
-          #2<span className="text-primary">CODE</span>
+          #2<span className="text-primary">CODE-RestroSync</span>
         </span>
 
         {/* Desktop Links */}
