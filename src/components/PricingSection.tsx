@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "Basic",
-    price: "399",
+    price: "599",
     desc: "Perfect for small restaurants getting started.",
     features: [
       "QR Menu System",
@@ -18,7 +18,7 @@ const plans = [
   },
   {
     name: "Pro",
-    price: "699",
+    price: "899",
     desc: "For growing restaurants that need more power.",
     features: [
       "Everything in Basic",
@@ -136,7 +136,7 @@ const PricingSection = () => (
         <div className="glass rounded-2xl p-6 text-center">
           <IndianRupee className="mx-auto mb-3 text-primary" />
           <h4 className="font-semibold">One-Time Setup</h4>
-          <h4 className="font-semibold">₹7,999/-</h4>
+          <h4 className="font-semibold">₹9,999/-</h4>
           <p className="text-sm text-muted-foreground mt-2">
             Includes full onboarding & QR setup.
           </p>
