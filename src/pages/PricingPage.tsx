@@ -17,7 +17,7 @@ import { Label } from "@/components/ui/label";
 const plans = [
   {
     name: "Basic",
-    price: "399",
+    price: "599",
     desc: "Perfect for small restaurants getting started.",
     features: [
       "QR Menu System",
@@ -30,7 +30,7 @@ const plans = [
   },
   {
     name: "Pro",
-    price: "699",
+    price: "899",
     desc: "For growing restaurants that need more power.",
     features: [
       "Everything in Basic",
